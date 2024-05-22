@@ -28,15 +28,15 @@ A smiple restful api with student data where we can perform all operation ( get,
      - Body:
      ```json
      {
-         "admission": "22mt0229",
-         "name": "nobin sahu",
+         "admission": "22mt0124",
+         "name": "devesh patel",
          "phone": 1234567890,
          "course": "mtechcse",
          "hostel": "sapphire"
      }
      ```
-   - **PUT** `127.0.0.1:8000/user/22mt0229/mtech` (to update course)
-   - **DELETE** `127.0.0.1:8000/user/22mt0229`
+   - **PUT** `127.0.0.1:8000/user/22mt0124/mtech` (to update course)
+   - **DELETE** `127.0.0.1:8000/user/22mt0124`
 
 ### 6. To excute the code
   - node app.js
